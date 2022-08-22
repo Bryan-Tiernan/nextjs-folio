@@ -31,21 +31,21 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Bryan | Software Developer"
+        titleTemplate="Bryan | Software Developer"
+        defaultTitle="Bryan | Software Developer"
+        description="Bryan Tiernan, Software Developer"
         openGraph={{
           url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          title: "Bryan | Software Developer",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "Bryan Tiernan, Software Developer",
           images: [
             {
               url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Bryan | Software Developer",
             },
           ],
         }}
@@ -63,7 +63,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        <link rel="icon" type="image/png" href="/assests/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </>

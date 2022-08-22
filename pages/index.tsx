@@ -6,7 +6,7 @@ import {
   Projects,
   Skills,
   Contact,
-  NowPlaying,
+  // NowPlaying,
 } from "../components";
 
 const Home: NextPage = () => {
@@ -17,10 +17,6 @@ const Home: NextPage = () => {
       <Skills />
       <Projects />
       <Contact />
-
-      <div className="flex justify-center">
-        <NowPlaying />
-      </div>
     </div>
   );
 };
