@@ -56,9 +56,7 @@ const Skills = () => {
       <p className="text-lg font-medium text-slate-300">
         Interested in learning more about <span className="text-white">JavaScript (Improve Knowledge)</span>,{" "}
         <span className="text-white">ReactJS/NextJS (Frontend libraries/frameworks)</span>,{" "}
-        <span className="text-white">C/C++</span>,{" "}
-        <span className="text-white">Rust</span>,{" "}
-        <span className="text-white">Ruby/Ruby Rails</span>{" "}
+        <span className="text-white">Rust</span>{" "}
         and of course <span className="text-white">Dive Deeper</span>{" "} into the topics listed above.
       </p>
     </div>
