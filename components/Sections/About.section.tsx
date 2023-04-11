@@ -15,8 +15,8 @@ const About: NextComponentType = () => {
         </p>
 
         <p className="mt-4 text-gray-400">
-          Software developer with a backend focus currently employed by Deciphex in the Digital Pathology space. <br/>
-          Working on Diagnexia, a digital clinical diagnostics service for Pathology.<br/>
+          Software developer with 3+ years of experience looking for a role in Vancouver, BC or remote in Canada.<br/>
+          Worked at Deciphex on Diagnexia, a digital clinical diagnostics service for Pathology.<br/>
           Interested in all things programming.<br/>
           Always trying to learn something new.
         </p>
@@ -27,7 +27,7 @@ const About: NextComponentType = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My rambling thoughts in blog form
+            I may blog here at some point who knows!
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>

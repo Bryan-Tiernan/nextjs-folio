@@ -8,7 +8,8 @@ const Skills = () => {
       <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg">
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <span className="text-white">Java</span>
-          &nbsp;as my main programming language
+          &nbsp;as my main programming language, currently learning&nbsp;
+          <span className="text-white">Go</span>
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
@@ -23,7 +24,7 @@ const Skills = () => {
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
           <span className="text-white">MongoDB</span>
-          &nbsp;as my go-to NoSQL database
+          &nbsp;as my go-to database
         </p>
 
         <p className="flex flex-row items-center border-b-[0.1px] border-gray-500 py-1 text-slate-300">
@@ -54,9 +55,11 @@ const Skills = () => {
       </div>
 
       <p className="text-lg font-medium text-slate-300">
-        Interested in learning more about <span className="text-white">JavaScript (Improve Knowledge)</span>,{" "}
-        <span className="text-white">ReactJS/NextJS (Frontend libraries/frameworks)</span>,{" "}
-        <span className="text-white">Rust</span>{" "}
+        Currently reading <span className="text-white">Designing Data-Intensive Applications</span> to level up my knowledge of application architecture and {" "}
+        <span className="text-white">Let's Go by Alex Edwards</span>{" "} to learn <span className="text-white">Go</span>.{" "}
+      </p>
+      <p className="text-lg font-medium text-slate-300">
+        Also interested in learning <span className="text-white">Rust</span>{" "}
         and of course <span className="text-white">Dive Deeper</span>{" "} into the topics listed above.
       </p>
     </div>

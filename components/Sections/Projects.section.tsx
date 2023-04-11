@@ -19,7 +19,19 @@ const Projects: NextComponentType = () => {
             </div>
           </a>
         </Link>
-      </div>
+        <Link href="https://github.com/Bryan-Tiernan/snippetbox" passHref>
+            <a
+                className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#66a7f2] to-[#02A3FA] p-1 text-white duration-100 hover:scale-105"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+                    <p className="text-xl font-semibold">Snippetbox</p>
+                    <p>Project for learning Go</p>
+                </div>
+            </a>
+        </Link>
+    </div>
     </div>
   );
 };
