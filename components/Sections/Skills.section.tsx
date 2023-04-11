@@ -56,7 +56,7 @@ const Skills = () => {
 
       <p className="text-lg font-medium text-slate-300">
         Currently reading <span className="text-white">Designing Data-Intensive Applications</span> to level up my knowledge of application architecture and {" "}
-        <span className="text-white">Let's Go by Alex Edwards</span>{" "} to learn <span className="text-white">Go</span>.{" "}
+        <span className="text-white">Lets Go by Alex Edwards</span>{" "} to learn <span className="text-white">Go</span>.{" "}
       </p>
       <p className="text-lg font-medium text-slate-300">
         Also interested in learning <span className="text-white">Rust</span>{" "}
